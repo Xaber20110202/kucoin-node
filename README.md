@@ -1866,7 +1866,7 @@ client.wsWrapper.close()
 ```
 
 
-## 参考
+## Reference
 * [binance-api-node](https://github.com/HyperCubeProject/binance-api-node)
 * [kucoin-api](https://github.com/Satoshinaire/kucoin-api)
 
