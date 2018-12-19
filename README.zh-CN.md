@@ -1,4 +1,4 @@
-# kucoin-node
+# kucoin-node [![npm](https://img.shields.io/npm/v/kucoin-node.svg)](https://www.npmjs.com/package/kucoin-node) [![License](https://img.shields.io/npm/l/kucoin-node.svg)](https://www.npmjs.com/package/kucoin-node)
 
 `kucoin-node` 是 [kucoin API](https://kucoinapidocs.docs.apiary.io/#) 的一个 `node` 封装实现。
 
@@ -24,6 +24,8 @@ yarn add kucoin-node
 ## 开始
 ```typescript
 import Kucoin from 'kucoin-node'
+// or
+// const Kucoin = require('kucoin-node').default
 
 const client = await Kucoin()
 
