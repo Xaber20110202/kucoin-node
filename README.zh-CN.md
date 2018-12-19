@@ -1,6 +1,6 @@
-# kucoin-api-node
+# kucoin-node
 
-`kucoin-api-node` 是 [kucoin API](https://kucoinapidocs.docs.apiary.io/#) 的一个 `node` 封装实现。
+`kucoin-node` 是 [kucoin API](https://kucoinapidocs.docs.apiary.io/#) 的一个 `node` 封装实现。
 
 *其他语言版本: [English](README.md)， [简体中文](README.zh-CN.md)。*
 
@@ -18,12 +18,12 @@ kucoin 的开放 API 实现相较 [Binance](https://github.com/binance-exchange/
 
 ## 安装
 ```bash
-yarn add kucoin-api-node
+yarn add kucoin-node
 ```
 
 ## 开始
 ```typescript
-import Kucoin from 'kucoin-api-node'
+import Kucoin from 'kucoin-node'
 
 const client = await Kucoin()
 

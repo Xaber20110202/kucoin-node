@@ -1,4 +1,4 @@
-# kucoin-api-node
+# kucoin-node
 
 A complete API wrapper for the [Kucoin API](https://kucoinapidocs.docs.apiary.io/#).
 
@@ -6,12 +6,12 @@ A complete API wrapper for the [Kucoin API](https://kucoinapidocs.docs.apiary.io
 
 ## Installation
 ```bash
-yarn add kucoin-api-node
+yarn add kucoin-node
 ```
 
 ## Getting started
 ```typescript
-import Kucoin from 'kucoin-api-node'
+import Kucoin from 'kucoin-node'
 
 const client = await Kucoin()
 
