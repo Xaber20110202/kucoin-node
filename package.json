@@ -1,0 +1,44 @@
+{
+  "name": "kucoin-api-node",
+  "version": "0.0.1",
+  "description": "A node API wrapper for Kucoin",
+  "main": "lib/index.js",
+  "author": "Xaber",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.12",
+    "jest": "^23.6.0",
+    "npm-run-all": "^4.1.5",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "restify-clients": "^2.6.4",
+    "ws": "^6.1.2"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "clean": "rm -rf ./lib",
+    "build:commonjs": "tsc",
+    "build": "run-s clean build:commonjs"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/[^_]*\\.test)\\.ts$",
+    "setupTestFrameworkScriptFile": "./__tests__/setup.ts",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}

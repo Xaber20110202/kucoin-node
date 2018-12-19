@@ -1,0 +1,10 @@
+.*
+src
+docs
+__tests__
+coverage
+node_modules
+tsconfig.json
+tslint.json
+yarn.lock
+package-lock.json
