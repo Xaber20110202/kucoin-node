@@ -1,3 +1,7 @@
+# Already deprecated!
+
+---
+
 # kucoin-node [![npm](https://img.shields.io/npm/v/kucoin-node.svg)](https://www.npmjs.com/package/kucoin-node) [![License](https://img.shields.io/npm/l/kucoin-node.svg)](https://www.npmjs.com/package/kucoin-node)
 
 A complete API wrapper for the [Kucoin API](https://kucoinapidocs.docs.apiary.io/#).
